@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jQuery Basic</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+// โค้ด jQuery จะเขียนตรงนี้
+$('#cal').click(function() {
+        let result = $("#result").val();
+        $("#text").text(3.14159*result*result);
+    });
+});
+</script>
+</head>
+<body>
+<h1>ยินดีต้อนรับ</h1>
+
+
+<p id="text">ผลลัพธ์</p>
+<input type="text" id="result">
+<button id="cal">คำนวณ</button>
+</body>
+</html>

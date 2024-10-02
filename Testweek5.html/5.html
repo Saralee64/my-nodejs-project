@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .header {
+        background-color: rgba(204, 228, 193, 0.582);
+        float: left;
+        width: 900px;
+    }
+
+ .container {
+        display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    }
+
+.manu {
+    width: 150px;
+    height: 500px;
+    background-color: skyblue;
+    color: white;
+    padding: 1rem;
+}
+.manu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ .manu ul li {
+    margin: 3rem 0;
+}
+
+.manu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.header h1 {
+    margin: 0;
+    color: black;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.box-box {
+    background-color: rgba(243, 233, 233, 0.911);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    width: 22%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="manu">
+            <p>SB ADMIN</p>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Utilities</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Charts</a></li>
+                <li><a href="#">Tables</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <p>search for......</p>
+        </div>
+    
+     <div class="main">
+            <header>
+                <h1>Dashboard</h1>
+                <div class="user-info">
+                    <p>Douglas McGee</p>
+                </div>
+            </header>
+            <section class="box">
+                <div class="box-box">
+                    <h2>Earnings (Monthly)</h2>
+                    <p>$40,000</p>
+                </div>
+                <div class="box-box">
+                    <h2>Earnings (Annual)</h2>
+                    <p>$215,000</p>
+                </div>
+                <div class="box-box">
+                    <h2>Tasks</h2>
+                    <p>50%</p>
+                </div>
+                <div class="box-box">
+                    <h2>Pending Requests</h2>
+                    <p>18</p>
+                </div>
+            </section>
+        </div>
+
+</body>
+</html>
